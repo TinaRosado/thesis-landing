@@ -177,6 +177,14 @@ ul.custom-list li::before {
     font-weight: bold;
 }
 
+.deployment-notice {
+    font-size: 20px !important;;
+    color: #b32a2a !important;;
+    text-align: center;
+    margin: 15px 0;
+    font-family: "Libre Baskerville", serif;
+}
+
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .content {
