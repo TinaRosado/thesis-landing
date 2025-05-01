@@ -100,7 +100,7 @@ header {
 
 /* Styles for the overlay boxes */
 .box {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.90);
     border-radius: 15px;
     padding: 25px;
     width: calc(50% - 15px);
@@ -111,7 +111,7 @@ header {
 
 .box-title {
     color: #2e2e2e;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 20px;
     text-align: center;
     font-family: "Libre Baskerville", serif;
@@ -127,7 +127,7 @@ header {
 .box-content p {
     margin-bottom: 15px;
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Button styling */
@@ -139,8 +139,8 @@ header {
     border-radius: 30px;
     text-decoration: none;
     text-align: center;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: light;
     margin-top: auto;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -151,6 +151,30 @@ header {
     background-color: #b32a2a;
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+ul.custom-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #2e2e2e;
+}
+
+ul.custom-list li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 18px;
+}
+
+ul.custom-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #b32a2a;
+    font-weight: bold;
 }
 
 /* Responsive design for smaller screens */
