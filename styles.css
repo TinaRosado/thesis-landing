@@ -159,20 +159,20 @@ ul.custom-list {
     margin: 0;
     font-family: "Libre Baskerville", serif;
     font-size: 12px;
-    line-height: 1.6;
+    line-height: 1.4;
     color: #2e2e2e;
 }
 
 ul.custom-list li {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
-    padding-left: 18px;
+    padding-left:28px;
 }
 
 ul.custom-list li::before {
     content: "•";
     position: absolute;
-    left: 0;
+    left: 16px;
     color: #b32a2a;
     font-weight: bold;
 }
